@@ -1,6 +1,6 @@
-# qwen-image-edit-fp8
+# qwen-image-edit-worker
 
-Dockerized ComfyUI workflow: qwen-image-edit-diffusion.json
+Dockerized ComfyUI workflow: qwen-image-edit.
 
 ## Contents
 
@@ -11,10 +11,10 @@ Dockerized ComfyUI workflow: qwen-image-edit-diffusion.json
 
 ```bash
 # Build the Docker image
-docker build -t qwen-image-edit-fp8 .
+docker build -t qwen-image-edit-worker .
 
 # Run the container
-docker run -p 8188:8188 qwen-image-edit-fp8
+docker run -p 8188:8188 qwen-image-edit-worker
 ```
 
 ## API Request Example
