@@ -1,6 +1,6 @@
 # qwen-image-edit-worker
 
-Dockerized ComfyUI workflow: qwen-image-edit.
+Dockerized ComfyUI workflow: qwen-image-edit. Quite disapointing so far.
 
 ## Contents
 
