@@ -1,6 +1,6 @@
 # qwen-image-edit-worker
 
-Dockerized ComfyUI workflow: qwen-image-edit. Quite disapointing so far.
+Dockerized ComfyUI workflow: qwen-image-edit. It does not embed any model in the image, models need to be loaded from a network volume.
 
 ## Contents
 
